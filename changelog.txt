@@ -1,0 +1,95 @@
+=== Friends ===
+Authors: Paul Menard (Incsub)
+
+== Changelog ==
+
+= 1.3.2 =
+* Reworked widget code to bring it up to acceptable standard using the modern WordPress widget API. 
+* Updated widget user queries to use WP_User_Query where possible instead of direct queries to users table.
+* Added many new widget options. Widget title. Append user name to widget title. Display Avatars, Set Avatar size. Number of Friends to display, Display random selection of Friends. Limit friends to current site (Multisite only). 
+
+= 1.3.1.3 =
+* Corrected undefined var Notice when searching users.
+
+= 1.3.1.2 =
+* Correct admin link in email notification to be the receiving users primary blog not the sending user blog url. Thanks @jcnjr
+* Changed Friends search to use WP_User_Query instead of direct SQL against users and user_meta tables.
+
+= 1.3.1.1 =
+* Updated translation to include missing strings. 
+* Updated hook for WPMU DEV Dashbord Notifications
+* Checked UI for WP 3.8 
+
+= 1.3.1 = 
+* Corrected issue where primary site admin could access network admin settings and post update. 
+
+= 1.3 =
+* Added integration with Chat 2.0 to show Friends available for Chat within Friends listing.
+
+= 1.2.3 =
+* XSS prevention patches
+* Change to allow plugin to function on regular WordPress (not just Multisite).
+* Hooks for upcoming WordPress Chat 2.0 changes. 
+
+= 1.2.2 =
+* Corrected URL error on find friend page. Also, corrected find friend display to not show existing friends as pending. Finally, added option on find friends form to show all existing friends included with non-friends. Added some presentation styling to the find friends output. 
+
+= 1.2.1 =
+* Added support for custom email template code. Three sets are supports Friend Request, Friend Approve, Friend Rejection. Each Email template set supports subject and content with replaceable tokens. Email templates are controlled via the Network admin Settings page only. 
+
+* Added internationalization to all display texts.
+
+* Somewhat major request of logic and display loops to bring plugin up to modern WordPress coding standards. 
+
+* Added contextual help 
+
+* Added better support for other plugins like Messages. 
+
+* Moved the Email Notifications from the Friend menu to under the User profile form since this is a user specific setting and not global to the plugin functionality. 
+
+
+= 1.2.0 =
+* Corrected logic when parsing email response. Code was not correctly replacing the requestor's name "TO_NAME" should have been "REQUESTING_USER" in reply emails.
+
+= 1.1.9 =
+* Updated widget output to use standard avatar functions. 
+
+= 1.1.8 =
+* Changed presentation for friend for notification alert count.
+
+= 1.1.7 =
+* Fixed sending the quick message from the Messaging plugin;
+* Removed redirection on the Messaging plugin after sending the quick message;
+
+
+= 1.1.6 =
+* fixed links to friends sites
+
+= 1.1.5 =
+* Changed the logic of approving, removing, rejecting friends
+
+= 1.1.4 =
+* Compatibility update for WordPress 3.1
+* Update Notifications script added
+* Bug fixes 
+
+= 1.1.3 =
+* Fixed typo in settings page url
+
+= 1.1.2 =
+* Fixed setting page bug
+
+= 1.1.1 =
+* Fixed friend request email
+* Fixed admin page url typos
+
+= 1.1.0 =
+* Changed no friends message
+* Re-phrased find friends text
+* Fixed widget bug
+
+= 1.0.0 =
+* Initial Release
+
+
+403900-1511250826-ai

@@ -1,0 +1,51 @@
+.friends-wrap input[type="text"], .friends-wrap textarea {		   	 	  						 	 
+	width: 100%;
+}
+
+.friends-wrap ul.friends-instructions {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.friends-wrap ul.friends-instructions li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.friends-wrap ul.friends-instructions li span.label {
+    float: left;
+    font-weight: bold;
+    width: 140px;
+}
+
+.friends-wrap ul#friend-results {
+
+}
+
+.friends-wrap ul#friend-results li {
+	height: 32px;
+	margin: 10px 0;
+}
+
+.friends-wrap ul#friend-results li span.friend-status {
+    float: left;
+    padding-top: 10px;
+    width: 60px;
+	text-align: center;
+}
+
+.friends-wrap ul#friend-results li span.friend-avatar {
+	width: 32px;
+	padding: 0 10px;
+	float: left;
+}
+
+.friends-wrap ul#friend-results li span.friend-name {
+    padding-top: 10px;
+	float: left;
+}
+
+
+/* 403900-1511250826-ai */
